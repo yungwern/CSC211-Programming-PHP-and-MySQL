@@ -5,7 +5,9 @@
 	<title>Your Feedback</title>
 </head>
 <body>
-<?php // Script 3.3 handle_form.php
+<?php // Script 3.4 handle_form.php #2
+
+ini_set('display_errors', 1); // Let me learn from my mistakes!
 
 //This page recieves the data from feedback.html
 // It will recieve: title, first name, last name,
