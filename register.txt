@@ -1,0 +1,25 @@
+Part A:
+
+1. isset() - This function is fairly simple as it basically explains itself in the name.
+When breaking it apart you can see that it means "is set." This can be used when information that
+is submitted from an HTML form doesn't have a value, like a checkbox. Normally if a user doesn't fill out a 
+textbox the value of that is still sent but its received as empty. With checkboxes that doesn't exist so we use 
+the isset() command to to check if the variable is set. If it is then isset() will return a value of True and if 
+it isn't then it will return a value of False.
+
+2. empty() - This function is used to check if a user input that was submitted from an HTML form has a value, 
+like isset(). Unlike isset() however, it can be used for many different things. The value that was submitted can 
+include things like an empty string (""), zero (0), NULL, false or an undefined variable. Where isset() will see an 
+empty string or zero as still having a value, empty() will recognize it as what it is, empty and return True. 
+
+3. is_numeric() - This function is used specifically to check numeric values. This can be very helpful when 
+making sure that what the user inputs is only valid when it contains a numeric value or string such as "123" 
+or "12.34." It will return false even if the user submits partial numeric values like "123xyz" so for validating 
+a birth year or phone numbers it can be very useful. 
+
+
+Part B:
+Brief comment about Part B. I already added most of this in my original handle_reg.php file as I thought that was 
+part of the initial assignment to add error handling. So I went ahead and added the CSS class into the head to allow
+for styling of the error messages as well as a is_numeric check as an additional check for the year input. I just wanted
+to provide you with a breif explanation of why my two handle_reg assignments looked so similar. 
