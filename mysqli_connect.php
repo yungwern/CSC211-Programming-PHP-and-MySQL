@@ -17,7 +17,7 @@ if ($dbc = mysqli_connect('localhost', 'root', '', 'myblog')) {
 
 } else {
 
-    print '<p style="color: red;">Could not connect to the database.</p>';
+    print '<p style="color: red;">Could not connect to the database:<br>' . mysqli_connect_error() . '.</p>';
 
 }
 
