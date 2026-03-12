@@ -1,0 +1,159 @@
+/* style.css - Main stylesheet for LAN Party Registrations */
+/* Requirement: Uses some CSS formatting */
+/* Requirement: Looks professional */
+
+/* General Reset & Body */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    font-size: 16px;
+}
+
+/* --- Header --- */
+.header {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 20px 30px;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+
+.header p{
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+/* --- Main Container --- */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* --- Footer --- */
+.footer {
+    background-color: #222222;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 4px 0;
+}
+
+/* --- Forms --- */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 9px 12px;
+    margin-bottom: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus {
+    outline: none;
+    border-color: #222222;
+}
+
+/* --- Buttons --- */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #222222;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 6px 4px;
+}
+
+.btn:hover {
+    background-color: #444444;
+}
+
+.btn-danger {
+    background-color: #cc0000;
+}
+
+.btn-danger:hover {
+    background-color: #aa0000;
+}
+
+/* --- Tables --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+table th {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 9px 12px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+table tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* --- Messages --- */
+.success {
+    background-color: #e6f4ea;
+    color: #2d6a2d;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.error {
+    background-color: #fde8e8;
+    color: #a00000;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* --- Page Titles --- */
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #222222;
+    padding-bottom: 8px;
+}
